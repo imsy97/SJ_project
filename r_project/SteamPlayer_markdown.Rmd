@@ -1,0 +1,35 @@
+---
+title: "SteamPlayer 분석 프로젝트"
+author: "Sunju"
+date: "2023-03-12"
+output: 
+  html_document: 
+    toc: yes
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 분석 목적
+
+해당 프로젝는 SteamPlayer에서 제공해주는 다양한 게임들 중 대표적인 **Counter Strike : Global Offensive, Dota2, Team Fortress2** 게임의 평균 유저수를 예측하고자 진행했습니다.
+
+해당 프로젝트는 시계열 분석론의 전통 방법에 입각하여 진행되었습니다. 
+
+## 분석 과정
+> 분석을 시작하기에 앞서, 필요한 패키지들을 설치해준다. **ggplot2, readxl, forecast, tseries, wiqid** 를 설치한다.
+```{r }
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
